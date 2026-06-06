@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Shruti Agarwal – AI/ML & Computer Science Engineering Undergraduate. Portfolio showcasing projects, skills, education, and certifications." />
+  <meta name="keywords"
+    content="Shruti Agarwal, AI, ML, Machine Learning, Computer Science, Portfolio, Data Science, Python, Deep Learning" />
+  <meta name="author" content="Shruti Agarwal" />
+  <meta property="og:title" content="Shruti Agarwal | AI/ML & CSE Portfolio" />
+  <meta property="og:description"
+    content="Driven by curiosity to build smart, data-driven solutions. Skilled across the full ML workflow." />
+  <meta property="og:type" content="website" />
+  <title>Shruti Agarwal | AI/ML & CSE Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       BACKGROUND AMBIENT BLOBS
+  ============================================================ -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" id="nav-logo-link">Shruti.</a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#skills" class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#experience" class="nav-link" id="nav-experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" id="nav-projects">Projects</a></li>
+        <li><a href="#education" class="nav-link" id="nav-education">Education</a></li>
+        <li><a href="#certifications" class="nav-link" id="nav-certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <!-- Theme Toggle -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+        <span class="theme-icon dark-icon" aria-hidden="true">
+          <i class="fas fa-moon"></i>
+        </span>
+        <span class="theme-icon light-icon" aria-hidden="true">
+          <i class="fas fa-sun"></i>
+        </span>
+        <span class="toggle-track" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-container">
+
+        <!-- Left: Text content -->
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Computer Science Undergrad&nbsp;&nbsp;|&nbsp;&nbsp;AI/ML Enthusiast
+          </div>
+
+          <h1 class="hero-name" id="hero-heading">
+            Shruti<br /><span class="gradient-text">Agarwal</span>
+          </h1>
+
+          <p class="hero-tagline">
+            Driven by curiosity to build smart, data-driven solutions. Skilled across the full ML workflow — from data
+            cleaning and EDA to advanced model building.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+              View Projects <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline" id="hero-contact">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-socials" role="list" aria-label="Social media links">
+            <a href="https://github.com/shrutiiagarwall" target="_blank" rel="noopener noreferrer" class="social-link"
+              id="social-github" role="listitem" aria-label="GitHub profile">
+              <!-- GitHub mark SVG -->
+              <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/shruti-agarwal-96730a2a8" target="_blank" rel="noopener noreferrer"
+              class="social-link" id="social-linkedin" role="listitem" aria-label="LinkedIn profile">
+              <!-- LinkedIn mark SVG -->
+              <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="mailto:shrutiagarwaljsr@gmail.com" class="social-link" id="social-email" role="listitem"
+              aria-label="Send email">
+              <!-- Mail envelope SVG -->
+              <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2.5" ry="2.5" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1PtF254pctX8HIi3D7ysqNqjpBG-5Kiyl/view?usp=drive_link"
+              class="social-link" id="social-resume" role="listitem" aria-label="Download Resume" target="_blank"
+              rel="noopener noreferrer" download>
+              <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="12" y1="18" x2="12" y2="12" />
+                <polyline points="9 15 12 18 15 15" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Right: Profile Image -->
+        <div class="hero-image-wrapper" aria-hidden="false">
+          <div class="hero-image-frame" id="hero-image-frame">
+            <div class="frame-glow" aria-hidden="true"></div>
+            <div class="frame-ring" aria-hidden="true"></div>
+            <!-- PROFILE PHOTO: (min 400×400 px). 
+                 https://ui-avatars.com/api/?name=Shruti+Agarwal&size=400&background=6c47ff&color=fff&bold=true&length=2-->
+            <img src="profile.png" alt="Shruti Agarwal – AI/ML and CSE undergraduate student"
+              class="hero-photo" id="hero-photo" width="400" height="400" loading="eager" />
+            <!-- Floating accent badges -->
+            <div class="float-badge float-badge-top" aria-hidden="true">
+              <i class="fas fa-brain"></i> AI/ML
+            </div>
+            <div class="float-badge float-badge-bottom" aria-hidden="true">
+              <i class="fas fa-code"></i> CSE
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span class="scroll-dot" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         ABOUT ME SECTION
+    ============================================================ -->
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">About Me</div>
+        <h2 class="section-title" id="about-heading">About <span class="gradient-text">Me</span></h2>
+
+        <div class="about-grid">
+          <!-- Bio -->
+          <div class="about-bio">
+            <p>
+              I'm <strong>Shruti Agarwal</strong>, a B.Tech student specializing in Artificial Intelligence and Machine
+              Learning at the University of Engineering and Management, Jaipur. I'm deeply passionate about leveraging
+              data to solve real-world problems.
+            </p>
+            <p>
+              My technical focus spans the entire ML lifecycle — from rigorous data preprocessing and exploratory data
+              analysis to feature engineering, model training, and evaluation. I have hands-on experience with deep
+              learning frameworks, NLP, and computer vision pipelines.
+            </p>
+            <p>
+              I thrive at the intersection of analytical thinking and creative problem-solving, constantly exploring
+              emerging technologies in Generative AI and Large Language Models. I am actively seeking internship and
+              research opportunities to apply and grow my skills.
+            </p>
+            <a href="#contact" class="btn btn-primary" id="about-hire-btn"
+              style="margin-top:1.5rem; display:inline-flex;">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>&nbsp; Get In Touch
+            </a>
+          </div>
+
+          <!-- Info Card -->
+          <div class="about-card glass-card" id="about-info-card">
+            <div class="about-info-row" id="about-name-row">
+              <div class="info-icon">
+                <!-- Person silhouette SVG -->
+                <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
+              <div>
+                <span class="info-label">Name</span>
+                <span class="info-value">Shruti Agarwal</span>
+              </div>
+            </div>
+            <div class="divider" aria-hidden="true"></div>
+            <div class="about-info-row" id="about-email-row">
+              <div class="info-icon">
+                <!-- Envelope SVG -->
+                <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2.5" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+              </div>
+              <div>
+                <span class="info-label">Email</span>
+                <a href="mailto:shrutiagarwaljsr@gmail.com" class="info-value info-link">
+                  shrutiagarwaljsr@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="divider" aria-hidden="true"></div>
+            <div class="about-info-row" id="about-location-row">
+              <div class="info-icon">
+                <!-- Map pin SVG -->
+                <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Jaipur, Rajasthan, India</span>
+              </div>
+            </div>
+            <div class="divider" aria-hidden="true"></div>
+            <div class="about-info-row" id="about-availability-row">
+              <div class="info-icon available-icon">
+                <!-- Activity / pulse SVG (signals active / open to work) -->
+                <svg class="info-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+              </div>
+              <div>
+                <span class="info-label">Availability</span>
+                <span class="info-value">Open to Internships &amp; Jobs Roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TECHNICAL SKILLS SECTION
+    ============================================================ -->
+    <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">My Skills</div>
+        <h2 class="section-title" id="skills-heading">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">A curated toolkit built through projects, coursework, and real-world applications.
+        </p>
+
+        <div class="skills-grid" id="skills-grid">
+
+          <!-- Programming Languages -->
+          <div class="skill-category glass-card" id="skill-cat-languages">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Python</span>
+              <span class="pill">C</span>
+              <span class="pill">SQL</span>
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+            </div>
+          </div>
+
+          <!-- Database & Cloud -->
+          <div class="skill-category glass-card" id="skill-cat-db">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+              <h3>Database &amp; Cloud</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Google Colab</span>
+              <span class="pill">MySQL</span>
+              <span class="pill">Oracle</span>
+              <span class="pill">AWS (Intermediate)</span>
+              <span class="pill">MongoDB (Basics)</span>
+              <span class="pill">Vercel</span>
+              <span class="pill">Render</span>
+            </div>
+          </div>
+
+          <!-- Scientific Computing -->
+          <div class="skill-category glass-card" id="skill-cat-sci">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-flask" aria-hidden="true"></i></div>
+              <h3>Scientific Computing</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">NumPy</span>
+              <span class="pill">SciPy</span>
+              <span class="pill">Pandas</span>
+              <span class="pill">Statsmodels</span>
+            </div>
+          </div>
+
+          <!-- ML/AI Toolbox -->
+          <div class="skill-category glass-card" id="skill-cat-ml">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+              <h3>ML / AI Toolbox</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill pill-accent">Scikit-learn</span>
+              <span class="pill pill-accent">OpenCV</span>
+              <span class="pill pill-accent">Keras</span>
+              <span class="pill pill-accent">TensorFlow</span>
+              <span class="pill pill-accent">PyTorch</span>
+              <span class="pill pill-accent">Hugging Face</span>
+              <span class="pill pill-accent">LangChain</span>
+              <span class="pill pill-accent">Generative AI</span>
+              <span class="pill pill-accent">NLP</span>
+              <span class="pill pill-accent">Computer Vision</span>
+              <span class="pill pill-accent">Regression</span>
+              <span class="pill pill-accent">Clustering</span>
+            </div>
+          </div>
+
+          <!-- Data Visualization & Analytics -->
+          <div class="skill-category glass-card" id="skill-cat-viz">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-chart-bar" aria-hidden="true"></i></div>
+              <h3>Data Visualization &amp; Analytics</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Matplotlib</span>
+              <span class="pill">Seaborn</span>
+              <span class="pill">Tableau</span>
+              <span class="pill">Power BI</span>
+              <span class="pill">MS Excel</span>
+            </div>
+          </div>
+
+          <!-- Project & Dev Tools -->
+          <div class="skill-category glass-card" id="skill-cat-tools">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fas fa-tools" aria-hidden="true"></i></div>
+              <h3>Project &amp; Dev Tools</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Jupyter Notebook</span>
+              <span class="pill">Git &amp; GitHub</span>
+              <span class="pill">VS Code</span>
+              <span class="pill">Anaconda</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         EXPERIENCE / INTERNSHIPS SECTION
+    ============================================================ -->
+    <section class="section experience-section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Experience</div>
+        <h2 class="section-title" id="experience-heading">Virtual Internship <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Real-world simulations and industry programs that sharpened my analytical and
+          technical edge.</p>
+
+        <div class="experience-grid" id="experience-grid">
+
+          <!-- BCG X -->
+          <article class="exp-card glass-card" id="exp-bcgx">
+            <div class="exp-card-top">
+              <div class="exp-logo-placeholder" aria-hidden="true">BCG<span>X</span></div>
+              <div class="exp-meta">
+                <span class="exp-badge">GenAI Intern</span>
+                <span class="exp-date"><i class="fas fa-calendar" aria-hidden="true"></i> March 2026</span>
+              </div>
+            </div>
+            <h3 class="exp-company">BCG X</h3>
+            <p class="exp-role-type">GenAI Job Simulation on Forage</p>
+            <ul class="exp-points">
+              <li>Completed a job simulation involving AI-powered financial chatbot development for BCG's GenAI
+                Consulting team.</li>
+              <li>Gained experience in Python programming, including the use of libraries such as pandas for data
+                manipulation.</li>
+              <li>Integrated and interpreted complex financial data from 10-K and 10-Q reports, employing rule-based
+                logic to create a chatbot that provides user-friendly financial insights and analysis.</li>
+            </ul>
+            <!-- Certificate placeholder: Replace href with the BCG X certificate URL -->
+            <a href="https://drive.google.com/file/d/1yixs4n3JwUgyWqibb_Cm8lXmHaHEjwKt/view?usp=drive_link"
+              class="exp-cert-link" id="exp-bcgx-cert" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-certificate" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Deloitte -->
+          <article class="exp-card glass-card" id="exp-deloitte">
+            <div class="exp-card-top">
+              <div class="exp-logo-placeholder exp-logo-deloitte" aria-hidden="true">DEL</div>
+              <div class="exp-meta">
+                <span class="exp-badge">Data Analytics Intern</span>
+                <span class="exp-date"><i class="fas fa-calendar" aria-hidden="true"></i> March 2026</span>
+              </div>
+            </div>
+            <h3 class="exp-company">Deloitte Australia</h3>
+            <p class="exp-role-type">Data Analytics Job Simulation on Forage</p>
+            <ul class="exp-points">
+              <li>Completed a Deloitte job simulation involving data analysis and forensic technology</li>
+              <li>Created a data dashboard using Tableau</li>
+              <li>Used Excel to classify data and draw business conclusions</li>
+            </ul>
+            <!-- Certificate placeholder: Replace href with the Deloitte certificate URL -->
+            <a href="https://drive.google.com/file/d/1cvFmjuppNqXddBtynceJPOsamQY7ttJR/view?usp=drive_link"
+              class="exp-cert-link" id="exp-deloitte-cert" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-certificate" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- TATA -->
+          <article class="exp-card glass-card" id="exp-tata">
+            <div class="exp-card-top">
+              <div class="exp-logo-placeholder exp-logo-tata" aria-hidden="true">TATA</div>
+              <div class="exp-meta">
+                <span class="exp-badge">Data Visualisation Intern</span>
+                <span class="exp-date"><i class="fas fa-calendar" aria-hidden="true"></i> March 2026</span>
+              </div>
+            </div>
+            <h3 class="exp-company">TATA</h3>
+            <p class="exp-role-type">Data Visualisation: Empowering Business with Effective Insights Job Simulation on
+              Forage</p>
+            <ul class="exp-points">
+              <li>Completed a simulation involving creating data visualizations for Tata Consultancy Services</li>
+              <li>Prepared questions for a meeting with client senior leadership</li>
+              <li>Created visuals for data analysis to help executives with effective decision making</li>
+            </ul>
+            <!-- Certificate placeholder: Replace href with the TATA certificate URL -->
+            <a href="https://drive.google.com/file/d/1mp_iTHvbvqy-UgSemwult9c6fWTk_n4u/view?usp=drive_link"
+              class="exp-cert-link" id="exp-tata-cert" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-certificate" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED PROJECTS SECTION
+    ============================================================ -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">My Projects</div>
+        <h2 class="section-title" id="projects-heading">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">A selection of machine learning, computer vision, and web development projects.</p>
+
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Project 1: Autism Screening -->
+          <article class="project-card glass-card" id="proj-autism">
+            <div class="project-card-glow" aria-hidden="true"></div>
+            <!-- Banner: ML / Python / Classification -->
+            <div class="project-banner proj-banner-purple" aria-hidden="true">
+              <!-- Python badge -->
+              <div class="proj-badge pb-python">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.914 0C5.82 0 6.2 2.656 6.2 2.656l.008 2.752h5.814v.826H3.9S0 5.789 0 11.969c0 6.18 3.403 5.963 3.403 5.963h2.031v-2.867s-.109-3.402 3.35-3.402h5.769s3.24.052 3.24-3.131V3.19S18.28 0 11.914 0zm-3.21 1.85a1.042 1.042 0 1 1 0 2.085 1.042 1.042 0 0 1 0-2.085z" />
+                  <path
+                    d="M12.086 24c6.094 0 5.714-2.656 5.714-2.656l-.008-2.752h-5.814v-.826h8.122S24 18.211 24 12.031c0-6.18-3.403-5.963-3.403-5.963h-2.031v2.867s.109 3.402-3.35 3.402H9.447s-3.24-.052-3.24 3.131v5.312S5.72 24 12.086 24zm3.21-1.85a1.042 1.042 0 1 1 0-2.085 1.042 1.042 0 0 1 0 2.085z" />
+                </svg>
+              </div>
+              <!-- Analytics / bar chart badge -->
+              <div class="proj-badge pb-chart">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="13" width="4" height="8" rx="1" />
+                  <rect x="9" y="7" width="4" height="14" rx="1" />
+                  <rect x="16" y="3" width="4" height="18" rx="1" />
+                </svg>
+              </div>
+              <!-- ML / neural node badge -->
+              <div class="proj-badge pb-ml">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="5" cy="5" r="2" fill="currentColor" stroke="none" />
+                  <circle cx="5" cy="12" r="2" fill="currentColor" stroke="none" />
+                  <circle cx="5" cy="19" r="2" fill="currentColor" stroke="none" />
+                  <circle cx="19" cy="8" r="2" fill="currentColor" stroke="none" />
+                  <circle cx="19" cy="16" r="2" fill="currentColor" stroke="none" />
+                  <circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none" />
+                  <line x1="7" y1="5" x2="10" y2="12" />
+                  <line x1="7" y1="12" x2="10" y2="12" />
+                  <line x1="7" y1="19" x2="10" y2="12" />
+                  <line x1="14" y1="12" x2="17" y2="8" />
+                  <line x1="14" y1="12" x2="17" y2="16" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">
+                <!-- Brain / ML icon -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13 3a4 4 0 0 1 4 4c0 .35-.04.69-.12 1.02A3.5 3.5 0 0 1 20 11.5a3.5 3.5 0 0 1-2 3.15V16a4 4 0 0 1-4 4h-1v-2h1a2 2 0 0 0 2-2v-1.35A3.5 3.5 0 0 1 18 11.5a1.5 1.5 0 0 0-1.5-1.5c-.28 0-.54.08-.76.22A4 4 0 0 1 13 5H11a4 4 0 0 1-2.74 3.78 3.5 3.5 0 0 1 .24 1.22A3.5 3.5 0 0 1 6 13.5a1.5 1.5 0 0 0 1 1.41V16a2 2 0 0 0 2 2h1v2H9a4 4 0 0 1-4-4v-1.35A3.5 3.5 0 0 1 3 11.5 3.5 3.5 0 0 1 6.12 8.02 4 4 0 0 1 6 7a4 4 0 0 1 4-4h3zm-1 2h-2a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2a2 2 0 0 0 2-2 2 2 0 0 0-2-2z" />
+                </svg>
+              </div>
+              <div class="project-links">
+                <!-- GitHub placeholder: Replace href with the Autism Screening project repository URL -->
+                <a href="https://github.com/shrutiiagarwall/asd-early-detection" class="project-link"
+                  id="proj-autism-github" target="_blank" rel="noopener noreferrer"
+                  aria-label="View Autism Screening project on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+                <!-- <a href="#" class="project-link" id="proj-autism-demo" target="_blank" rel="noopener noreferrer"
+                  aria-label="View Autism Screening live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a> -->
+              </div>
+            </div>
+            <h3 class="project-title">Early ASD Detection</h3>
+            <ul class="project-desc">
+              <li>Identified and addressed 7 documented gaps in ASD screening ML literature; designed
+                a novel two-stage architecture quantifying the AQ-10 instrument's clinical contribution.</li>
+              <li>Built Stacking Ensemble with SMOTETomek, clinically optimised threshold, SHAP
+                explainability, Monte Carlo uncertainty, and PSI drift monitoring on 5,021 samples.</li>
+              <li>Abstracted novel feature engineering (publication pending); deployed via Gradio +
+                ONNX with full CI/CD pipeline, pytest suite, and IP-protected model weights on GitHub.</li>
+            </ul>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">SHAP</span>
+              <span class="tag">Gradio</span>
+              <span class="tag">SMOTETomek</span>
+              <span class="tag">ONNX</span>
+            </div>
+          </article>
+
+          <!-- Project 2: Driver Drowsiness -->
+          <article class="project-card glass-card" id="proj-drowsiness">
+            <div class="project-card-glow" aria-hidden="true"></div>
+            <!-- Banner: Computer Vision / OpenCV / Deep Learning -->
+            <div class="project-banner proj-banner-cyan" aria-hidden="true">
+              <!-- Eye / vision badge -->
+              <div class="proj-badge pb-eye">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                </svg>
+              </div>
+              <!-- Alert / warning badge -->
+              <div class="proj-badge pb-alert">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" />
+                </svg>
+              </div>
+              <!-- Deep learning / layers badge -->
+              <div class="proj-badge pb-dl">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">
+                <!-- Eye / computer vision icon -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                </svg>
+              </div>
+              <div class="project-links">
+                <!-- GitHub placeholder: Replace href with the Driver Drowsiness Detection project repository URL -->
+                <a href="https://github.com/shrutiiagarwall/drowsiness-detection" class="project-link"
+                  id="proj-drowsiness-github" target="_blank" rel="noopener noreferrer"
+                  aria-label="View Driver Drowsiness project on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+                <!-- <a href="#" class="project-link" id="proj-drowsiness-demo" target="_blank" rel="noopener noreferrer"
+                  aria-label="View Driver Drowsiness live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a> -->
+              </div>
+            </div>
+            <h3 class="project-title">Driver Drowsiness Detection System</h3>
+            <ul class="project-desc">
+              <li>Addressed gap in single-cue detection systems by building a dual-cue fusion model combining PERCLOS
+                eye analysis (×0.6 weight) and yawn detection (×0.4) for higher reliability than eye-only baselines</li>
+              <li>Designed custom CBAM attention CNN (channel + spatial attention) for both eye and mouth
+                classification; trained soft-voting ensemble (Baseline CNN + CBAM CNN + MobileNetV2) achieving optimized
+                weights of [0.25, 0.45, 0.30]</li>
+              <li>Integrated real-time Grad-CAM explainability, sliding-window accuracy drift detection, and live Gradio
+                UI for end-to-end inference pipeline</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">Keras</span>
+              <span class="tag">Gradio</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Event Management Website -->
+          <article class="project-card glass-card" id="proj-event">
+            <div class="project-card-glow" aria-hidden="true"></div>
+            <!-- Banner: HTML / CSS / JavaScript / Web -->
+            <div class="project-banner proj-banner-amber" aria-hidden="true">
+              <!-- HTML badge -->
+              <div class="proj-badge pb-html">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                </svg>
+              </div>
+              <!-- CSS badge -->
+              <div class="proj-badge pb-css">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                </svg>
+              </div>
+              <!-- JavaScript badge -->
+              <div class="proj-badge pb-js">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">
+                <!-- Globe / web icon -->
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                </svg>
+              </div>
+              <div class="project-links">
+                <!-- GitHub placeholder: Replace href with the Event Management Website project repository URL -->
+                <a href="https://github.com/shrutiiagarwall/Festmate" class="project-link" id="proj-event-github"
+                  target="_blank" rel="noopener noreferrer" aria-label="View Event Management project on GitHub">
+                  <!-- GitHub mark -->
+                  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+                <a href="https://festmate.vercel.app/" class="project-link" id="proj-event-demo" target="_blank"
+                  rel="noopener noreferrer" aria-label="View Event Management live demo">
+                  <!-- External launch arrow -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                    stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">FestMate — Event Planning Marketplace</h3>
+            <ul class="project-desc">
+              <li>Built a full-stack event marketplace with JWT-based authentication, supporting user registration,
+                login, and protected routes</li>
+              <li>Designed and integrated REST APIs for 6 modules — vendors, cart, bookings, wishlist, reviews, and auth
+                — with global error handling and 404 middleware</li>
+              <li>Seeded and managed a MongoDB Atlas database of 68+ vendors across 16 categories including caterers,
+                decorators, photographers, and venues</li>
+              <li>Configured production deployment with Vercel (frontend) and Render (backend), implementing
+                environment-based CORS to securely connect both services</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">MongoDB Atlas</span>
+              <span class="tag">JWT</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION SECTION
+    ============================================================ -->
+    <section class="section education-section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">My Education</div>
+        <h2 class="section-title" id="education-heading">Academic <span class="gradient-text">Journey</span></h2>
+        <p class="section-subtitle">Foundations built with rigor, curiosity, and consistent academic excellence.</p>
+
+        <div class="timeline" id="education-timeline" role="list">
+
+          <!-- Education 1: University -->
+          <article class="timeline-item" id="edu-uem" role="listitem">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div class="timeline-meta">
+                  <span class="timeline-period">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i> 2023 – Present
+                  </span>
+                  <span class="timeline-grade grade-pill">
+                    <i class="fas fa-star" aria-hidden="true"></i> CGPA: 8.90 / 10
+                  </span>
+                </div>
+                <h3 class="timeline-title">University of Engineering and Management, Jaipur</h3>
+                <p class="timeline-degree">B.Tech in Computer Science &amp; Engineering</p>
+                <p class="timeline-specialization">Specialization: Artificial Intelligence &amp; Machine Learning</p>
+              </div>
+              <!-- Marksheet placeholder: Replace href with actual marksheet/document URL -->
+              <a href="https://drive.google.com/drive/folders/1BQSqtyKpsqxWo9Ib_buPNSh1wZrPZ5PB?usp=drive_link"
+                class="timeline-doc-link" id="edu-uem-marksheet" target="_blank" rel="noopener noreferrer"
+                aria-label="View UEM Jaipur marksheet">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> View Marksheet
+              </a>
+            </div>
+          </article>
+
+          <!-- Education 2: Kasidih High School -->
+          <article class="timeline-item" id="edu-kasidih" role="listitem">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fas fa-school" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div class="timeline-meta">
+                  <span class="timeline-period">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i> 2020 – 2022
+                  </span>
+                  <span class="timeline-grade grade-pill">
+                    <i class="fas fa-star" aria-hidden="true"></i> 78.00%
+                  </span>
+                </div>
+                <h3 class="timeline-title">Kasidih High School, Jamshedpur, Jharkhand</h3>
+                <p class="timeline-degree">Intermediate — PCMC (Physics, Chemistry, Mathematics, Computer Science)</p>
+                <p class="timeline-specialization">Board: CBSE</p>
+              </div>
+              <!-- Marksheet placeholder: Replace href with the actual Intermediate marksheet URL -->
+              <a href="https://drive.google.com/file/d/1gM4H6qS4_ZMwkWZu1ReBkdGLw_4o3dXI/view?usp=drive_link" class="timeline-doc-link" id="edu-kasidih-marksheet" target="_blank"
+                rel="noopener noreferrer" aria-label="View Kasidih High School marksheet">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> View Marksheet
+              </a>
+            </div>
+          </article>
+
+          <!-- Education 3: South Point School -->
+          <article class="timeline-item" id="edu-southpoint" role="listitem">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fas fa-school" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div class="timeline-meta">
+                  <span class="timeline-period">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i> 2019 – 2020
+                  </span>
+                  <span class="timeline-grade grade-pill">
+                    <i class="fas fa-star" aria-hidden="true"></i> 90.40%
+                  </span>
+                </div>
+                <h3 class="timeline-title">South Point School, Jamshedpur</h3>
+                <p class="timeline-degree">Matriculation (Class X)</p>
+                <p class="timeline-specialization">Board: CBSE</p>
+              </div>
+              <!-- Marksheet placeholder: Replace href with the actual Matriculation marksheet URL -->
+              <a href="https://drive.google.com/file/d/1ktJMvgGybfSqGMBl1PRlDONSmwlLj3do/view?usp=drive_link" class="timeline-doc-link" id="edu-southpoint-marksheet" target="_blank"
+                rel="noopener noreferrer" aria-label="View South Point School marksheet">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> View Marksheet
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CERTIFICATIONS SECTION
+    ============================================================ -->
+    <section class="section certs-section" id="certifications" aria-labelledby="certs-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Certifications</div>
+        <h2 class="section-title" id="certs-heading">Professional <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Validated expertise from globally recognized institutions and platforms.</p>
+
+        <div class="certs-grid" id="certs-grid">
+
+          <!-- Cert 1 -->
+          <article class="cert-card glass-card" id="cert-iot">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-microchip"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Cloud Computing</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  IIT Kharagpur &nbsp;&middot;&nbsp; NPTEL Swayam
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> April 2026
+                </p>
+                <span class="cert-badge">Elite + Silver &nbsp;|&nbsp; 82%</span>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1ezQ-KtstB-Yqr3TYQn6YX1-XnMtaaU31/view?usp=drive_link"
+              class="cert-link" id="cert-iot-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 2 -->
+          <article class="cert-card glass-card" id="cert-nlp">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-comments"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Natural Language Processing with Probabilistic Models</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  DeepLearning.AI &nbsp;&middot;&nbsp; Coursera
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> March 2026
+                </p>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1-2y-NWivBuJT93i3CfHrAcRn2nlzn3CA/view?usp=drive_link"
+              class="cert-link" id="cert-nlp-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 3 -->
+          <article class="cert-card glass-card" id="cert-dl-keras">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-network-wired"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Introduction to Deep Learning &amp; Neural Networks with Keras</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  IBM &nbsp;&middot;&nbsp; Coursera
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> October 2025
+                </p>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1XDLWpKSTnsJnSC37j4smHGAKrU9dVcMt/view?usp=drive_link"
+              class="cert-link" id="cert-dl-keras-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 4 -->
+          <article class="cert-card glass-card" id="cert-iot">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-microchip"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Introduction to Internet of Things</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  IIT Kharagpur &nbsp;&middot;&nbsp; NPTEL Swayam
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> October 2025
+                </p>
+                <span class="cert-badge">Elite + Silver &nbsp;|&nbsp; 83%</span>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1IFAHzE5wgP6CjPhq3s6JurCUtAxP_g7E/view?usp=drive_link"
+              class="cert-link" id="cert-iot-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 5 -->
+          <article class="cert-card glass-card" id="cert-crypto">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-lock"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Applied Cryptography Specialization</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  University of Colorado Boulder &nbsp;&middot;&nbsp; Coursera
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> September 2025
+                </p>
+                <span class="cert-badge">4-Course Specialization</span>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1pi9GEfwfSzYc_0mnbxdar9y7SdLpEH1B/view?usp=drive_link"
+              class="cert-link" id="cert-crypto-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 6 -->
+          <article class="cert-card glass-card" id="cert-data-analysis">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Data Analysis with Python</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  IBM &nbsp;&middot;&nbsp; Coursera
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> March 2025
+                </p>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/1CtymulzFO_tIc_sMmPY_dZY4qszprKJR/view?usp=drive_link"
+              class="cert-link" id="cert-data-analysis-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+          <!-- Cert 7 -->
+          <article class="cert-card glass-card" id="cert-python-ds">
+            <div class="cert-card-inner">
+              <div class="cert-icon" aria-hidden="true"><i class="fab fa-python"></i></div>
+              <div class="cert-body">
+                <h3 class="cert-title">Python for Data Science</h3>
+                <p class="cert-issuer">
+                  <i class="fas fa-building" aria-hidden="true"></i>
+                  IIT Madras &nbsp;&middot;&nbsp; NPTEL Swayam
+                </p>
+                <p class="cert-date">
+                  <i class="fas fa-calendar-check" aria-hidden="true"></i> January 2025
+                </p>
+                <span class="cert-badge">Elite + Silver &nbsp;|&nbsp; 75%</span>
+              </div>
+            </div>
+            <!-- Certificate placeholder -->
+            <a href="https://drive.google.com/file/d/14jWBmsCQ9YO8FuT_meTgbXwbPuFisly_/view?usp=drive_link"
+              class="cert-link" id="cert-python-ds-link" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-award" aria-hidden="true"></i> View Certificate
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT ME SECTION
+    ============================================================ -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Contact Me</div>
+        <h2 class="section-title" id="contact-heading">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a project idea or opportunity? I'd love to hear from you.</p>
+
+        <div class="contact-grid">
+          <!-- Left: Info panel -->
+          <div class="contact-info">
+            <div class="contact-info-item" id="contact-email-item">
+              <div class="contact-info-icon">
+                <!-- Envelope SVG -->
+                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2.5" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+              </div>
+              <div>
+                <p class="contact-info-label">Email</p>
+                <a href="mailto:shrutiagarwaljsr@gmail.com" class="contact-info-value">shrutiagarwaljsr@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-info-item" id="contact-location-item">
+              <div class="contact-info-icon">
+                <!-- Map pin SVG -->
+                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <p class="contact-info-label">Location</p>
+                <p class="contact-info-value">Jaipur, Rajasthan, India</p>
+              </div>
+            </div>
+            <div class="contact-socials" aria-label="Social links">
+              <a href="https://github.com/shrutiiagarwall" target="_blank" rel="noopener noreferrer"
+                class="social-link contact-social" aria-label="GitHub">
+                <!-- GitHub mark SVG -->
+                <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true">
+                  <path
+                    d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/shruti-agarwal-96730a2a8" target="_blank" rel="noopener noreferrer"
+                class="social-link contact-social" aria-label="LinkedIn">
+                <!-- LinkedIn mark SVG -->
+                <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a href="mailto:shrutiagarwaljsr@gmail.com" class="social-link contact-social" aria-label="Email">
+                <!-- Mail envelope SVG -->
+                <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2.5" ry="2.5" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <form class="contact-form glass-card" id="contact-form" action="https://formspree.io/f/mykakvvv" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group" id="form-group-name">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Ravi Kumar"
+                  required autocomplete="name" aria-required="true" />
+              </div>
+              <div class="form-group" id="form-group-email">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" name="email" class="form-input"
+                  placeholder="e.g. ravi@example.com" required autocomplete="email" aria-required="true" />
+              </div>
+            </div>
+            <div class="form-group" id="form-group-subject">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input type="text" id="contact-subject" name="subject" class="form-input"
+                placeholder="e.g. Internship Opportunity" required aria-required="true" />
+            </div>
+            <div class="form-group" id="form-group-message">
+              <label for="contact-message" class="form-label">Your Message</label>
+              <textarea id="contact-message" name="message" class="form-textarea"
+                placeholder="Write your message here..." rows="5" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>&nbsp; Send Message
+            </button>
+            <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Shruti Agarwal. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home" class="footer-nav-link">Home</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#projects" class="footer-nav-link">Projects</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top of page">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
